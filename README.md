@@ -64,3 +64,7 @@ We will assess the following aspects of your solution:
 
 <hr>
 <h1>Implementation</h1>
+
+<strong>Changes</strong>
+- RabbitMQ used for messaging
+- Redis as a cache layer between Catalog API and AWS S3
