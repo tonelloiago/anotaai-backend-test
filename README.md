@@ -62,5 +62,5 @@ We will assess the following aspects of your solution:
 - Code organization, module separation, readability, and comments.
 - Commit history.
 
----------------------------------------------------------------------------------------------------------------------------
+<hr>
 <h1>Implementation</h1>
