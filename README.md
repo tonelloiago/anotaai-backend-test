@@ -1,5 +1,5 @@
 
-<h1>Backend Analyst Candidate Test</h1>
+<h1>Original - Backend Analyst Candidate Test</h1>
 Dear developer,
 
 Welcome to the Backend Analyst Candidate Test. This test aims to assess your general knowledge and development speed. Below, you will find the details and requirements for this test.
@@ -61,3 +61,19 @@ We will assess the following aspects of your solution:
 - Documentation quality.
 - Code organization, module separation, readability, and comments.
 - Commit history.
+
+<hr>
+<h1>Implementation</h1>
+
+<strong>Changes</strong>
+- RabbitMQ used for messaging.
+- Redis as a cache layer between Catalog API and AWS S3.
+- Spring Boot as the web framework.
+
+
+<strong>Architecture</strong>
+
+ This is a project to study software architecture. So, as mentioned in the original description, the system receives multiple requests to manage catalogs and for handle this amount of calls i've been decide to use microservices with kubernetes. That way, its possible to scale our system horizontally. Remember, its a project for study and i know that simpler architectures would solve the problem.
+
+ The following diagrams presents a simple draw of what i've been thinking for architecture 
+
